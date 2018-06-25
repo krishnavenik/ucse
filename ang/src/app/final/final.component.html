@@ -1,0 +1,15 @@
+
+  User selected the following input:
+  <br>
+  {{ formData.make }} {{ formData.year }} {{ formData.type }} {{formDaa.features}} <p id = "demo"></p> on {{ formData.purchasedate }} 
+  User will get <p id= "c"></p> discount.
+
+  <script>
+    if(FormData.to.getDate%2 ==1 ){
+      var discount = "30%";
+    }else{
+      discount = "40%";
+    }
+    document.getElementById("c").innerHTML = discount;
+
+    </script>
